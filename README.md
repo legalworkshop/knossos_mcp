@@ -100,8 +100,8 @@ allowlists as how much you *delegate* to that already-trusted client.
 
 1. **Clone and configure:**
    ```powershell
-   git clone https://github.com/flaviofujita/knossos-mcp.git
-   cd knossos-mcp
+   git clone https://github.com/flaviofujita/knossos_mcp.git
+   cd knossos_mcp
    copy .env.example .env
    # generate a strong token:
    python -c "import secrets;print(secrets.token_urlsafe(48))"
